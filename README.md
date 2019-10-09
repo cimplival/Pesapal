@@ -7,23 +7,23 @@ Laravel 5 Package for the Pesapal API
 
 From the command line inside your project directory, simply type:
 
-`composer require knox/pesapal`
+`composer require cimplival/pesapal`
 
 ### Update your config
 
 Add the service provider to the providers array in config/app.php:
 
-`Knox\Pesapal\PesapalServiceProvider::class,`
+`Cimplival\Pesapal\PesapalServiceProvider::class,`
 
 Add the facade to the aliases array in config/app.php:
 
-`'Pesapal' => Knox\Pesapal\Facades\Pesapal::class,` 
+`'Pesapal' => Cimplival\Pesapal\Facades\Pesapal::class,` 
 
 ### Publish the package configuration
 
 Publish the configuration file and migrations by running the provided console command:
 
-`php artisan vendor:publish --provider="Knox\Pesapal\PesapalServiceProvider"`
+`php artisan vendor:publish --provider="Cimplival\Pesapal\PesapalServiceProvider"`
 
 ## Setup
 ### Environmental Variables
