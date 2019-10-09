@@ -5,9 +5,20 @@ Laravel 6 Package for the Pesapal API
 
 ### Add this package using Composer
 
-From the command line inside your project directory, simply type:
+Add the following line to your composer.json
 
-`composer require cimplival/pesapal`
+`"nesbot/carbon": "2.24 as 2.25.1"`
+
+NB: version of nesbot/carbon might be different
+
+Run the following line:
+
+`composer dump-autoload`
+
+Then lastly run the following line:
+
+`composer require cimplival/pesapal "dev-master"`
+
 
 ### Update your config
 
