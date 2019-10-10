@@ -6,15 +6,15 @@
  * Time: 2:30 AM
  */
 
-namespace Knox\Pesapal\OAuth;
+namespace Cimplival\Pesapal\OAuth;
 
 
-use Knox\Pesapal\OAuth\Exceptions\OAuthException;
+use Cimplival\Pesapal\OAuth\Exceptions\OAuthException;
 
 /**
  * Class OAuthSignatureMethod_RSA_SHA1
  *
- * @package Knox\Pesapal\OAuth
+ * @package Cimplival\Pesapal\OAuth
  */
 class OAuthSignatureMethod_RSA_SHA1 extends OAuthSignatureMethod
 {
@@ -29,7 +29,7 @@ class OAuthSignatureMethod_RSA_SHA1 extends OAuthSignatureMethod
     /**
      * @param $request
      *
-     * @throws \Knox\Pesapal\OAuth\Exceptions\OAuthException
+     * @throws \Cimplival\Pesapal\OAuth\Exceptions\OAuthException
      */
     protected function fetch_public_cert(&$request)
     {
@@ -45,7 +45,7 @@ class OAuthSignatureMethod_RSA_SHA1 extends OAuthSignatureMethod
     /**
      * @param $request
      *
-     * @throws \Knox\Pesapal\OAuth\Exceptions\OAuthException
+     * @throws \Cimplival\Pesapal\OAuth\Exceptions\OAuthException
      */
     protected function fetch_private_cert(&$request)
     {

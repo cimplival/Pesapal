@@ -105,7 +105,7 @@ class PaymentsController extends Controller
 
         return view('payments.business.pesapal', compact('iframe'));
     }
-    public function paymentsuccess(Request $request)//just tells u payment has gone thru..but not confirmed
+    public function paymentsuccess(Request $request)//just tells you payment has gone through..but not confirmed
     {
         $trackingid = $request->input('tracking_id');
         $ref = $request->input('merchant_reference');

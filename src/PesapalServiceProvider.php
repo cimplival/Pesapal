@@ -1,6 +1,6 @@
 <?php
 
-namespace Knox\Pesapal;
+namespace Cimplival\Pesapal;
 
 use Illuminate\Support\ServiceProvider;
 

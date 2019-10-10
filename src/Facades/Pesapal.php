@@ -1,4 +1,4 @@
-<?php namespace Knox\Pesapal\Facades;
+<?php namespace Cimplival\Pesapal\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

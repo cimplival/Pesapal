@@ -1,6 +1,6 @@
 <?php
 
-namespace Knox\Pesapal\Exceptions;
+namespace Cimplival\Pesapal\Exceptions;
 
 use Exception;
 

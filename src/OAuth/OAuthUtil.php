@@ -6,13 +6,13 @@
  * Time: 2:33 AM
  */
 
-namespace Knox\Pesapal\OAuth;
+namespace Cimplival\Pesapal\OAuth;
 
 
 /**
  * Class OAuthUtil
  *
- * @package Knox\Pesapal\OAuth
+ * @package Cimplival\Pesapal\OAuth
  */
 class OAuthUtil
 {

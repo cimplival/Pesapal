@@ -6,7 +6,7 @@
  * Time: 2:23 AM
  */
 
-namespace Knox\Pesapal\OAuth\Exceptions;
+namespace Cimplival\Pesapal\OAuth\Exceptions;
 
 
 use Exception;
@@ -14,7 +14,7 @@ use Exception;
 /**
  * Class OAuthException
  *
- * @package Knox\Pesapal\OAuth\Exceptions
+ * @package Cimplival\Pesapal\OAuth\Exceptions
  */
 class OAuthException extends Exception
 {

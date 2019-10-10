@@ -1,9 +1,9 @@
 <?php
 
-namespace Knox\Pesapal;
+namespace Cimplival\Pesapal;
 
 use Illuminate\Support\Facades\Input as Input;
-use Knox\Pesapal\Exceptions\PesapalException;
+use Cimplival\Pesapal\Exceptions\PesapalException;
 use App\Http\Controllers\Controller;
 use Pesapal;
 

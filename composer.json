@@ -2,7 +2,7 @@
     "name": "cimplival/pesapal",
     "description": "A laravel package that integrates into the pesapal api",
     "keywords": ["pesapal","laravel 6","MPESA","payments","VISA","Mastercard","Orange Money"],
-    "homepage": "https://github.com/knox2/pesapal",
+    "homepage": "https://github.com/cimplival/pesapal",
     "license": "MIT",
     "authors": [
         {

@@ -6,13 +6,13 @@
  * Time: 2:29 AM
  */
 
-namespace Knox\Pesapal\OAuth;
+namespace Cimplival\Pesapal\OAuth;
 
 
 /**
  * Class OAuthSignatureMethod_PLAINTEXT
  *
- * @package Knox\Pesapal\OAuth
+ * @package Cimplival\Pesapal\OAuth
  */
 class OAuthSignatureMethod_PLAINTEXT extends OAuthSignatureMethod
 {
