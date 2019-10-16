@@ -2,10 +2,10 @@
 
 namespace Cimplival\Pesapal;
 
-use Illuminate\Support\Facades\Input as Input;
 use Cimplival\Pesapal\Exceptions\PesapalException;
 use App\Http\Controllers\Controller;
 use Pesapal;
+use Input;
 
 class PesapalAPIController extends Controller
 {
